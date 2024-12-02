@@ -141,6 +141,8 @@ body{
   padding: 13px 35px;
   list-style: none;
   cursor: pointer;
+  text-decoration: none;
+  color: aliceblue;
 }
  
   .container {
