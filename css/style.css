@@ -117,3 +117,27 @@ body{
   .icons-next:hover {
     transform: scale(0.8) translateX(10px);
   }
+  .shop-by-category-text{
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #18283f;
+    font-size: 35px;
+    margin-top:60px;
+  }
+  .shop-by-category-container{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .category-image-container{
+    display:block;
+    margin: 20px 20px ;
+  }
+  .category-img{
+    height: 200px;
+  }
+  .category-text{
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 20px;
+
+  }
