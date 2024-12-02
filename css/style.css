@@ -127,20 +127,20 @@ body{
     margin:35px 3px; ;
 }
 .pages-container{
-    background-color: #18283f;
-    color: aliceblue;
-    font-family: "Kumbh Sans", sans-serif;
-    display: flex;
-    margin-left:45px;
-    margin-right:60px;
-    border-radius:7px;
+  background-color: #18283f;
+  color: aliceblue;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left:50px;
+  margin-right:50px;
+  border-radius:7px;
 
 }
 .pages-text{
-    margin:10px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    color: aliceblue;
+  padding: 13px 35px;
+  list-style: none;
+  cursor: pointer;
 }
  
   .container {
