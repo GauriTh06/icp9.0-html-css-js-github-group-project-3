@@ -9,8 +9,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@100..900&family=Parisienne&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/icon/unnamed.png">
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        h2 {
+            margin-top: 40px;
+            
+            font-size: 40px;
+            margin-left:20px;
+            }
+        .header{
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:5px;
+        }
+        .dark-theme {
+            background-color: #222222;
+            color: #ffffff;
+        }
+        .light-theme {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .dark-theme header{
+           color: #000000;
+        }
+        .logo-dark {
+            margin-top: 6%;
+            display: none;
+            width: 35px;
+            padding: 8px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px #e28605;
+        }
+        .logo-dark:hover{
+            cursor: pointer;
+        }
+        .logo-light {
+            margin-top: 6%;
+            display: inline;
+            width: 40px;
+            box-shadow: 0 0 10px #e28605;
+            padding: 8px;
+            border-radius: 50px;
+            background-color: #f1f1f1;
+        }
+        .logo-light:hover{
+            cursor: pointer;
+        }
+        .light-theme .logo-dark {
+            display: none;
+        }
+        .light-theme .logo-light {
+            display: inline;
+        }
+        .dark-theme .logo-dark {
+            display: inline;
+        }
+        .dark-theme .logo-light {
+            display: none;
+        }
+    </style>
 </head>
-<body>
+<body id="body" class="light-theme">
+    <header class="header">
+        <h2></h2>
+        <img src="/img/night-mode.png" alt="dark mode" class="logo-dark" id="dark-logo" onclick="toggleTheme()" />
+        <img src="/img/light.png" alt="light mode" class="logo-light" id="light-logo" onclick="toggleTheme()" />
+    </header>
     <div class="header-container">
         <img src="/img/main-website-logo.webp" class="website-logo">
         <button class="header-button header-button1">Enter Pin</button>
@@ -32,5 +100,14 @@
     
     </div>
     
-</body>
+</body><script>
+function toggleTheme() {
+    const body = document.getElementById('body');
+    if (body.classList.contains('dark-theme')) {
+        body.classList.replace('dark-theme', 'light-theme');
+    } else {
+        body.classList.replace('light-theme', 'dark-theme');
+    }
+}
+</script>
 </html>
