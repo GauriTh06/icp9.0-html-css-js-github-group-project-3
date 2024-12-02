@@ -1,13 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home
-        
-    </title>
+    <title>Freshify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@100..900&family=Parisienne&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icon/unnamed.png">
+    <link rel="stylesheet" href="./css/style.css">
+   
 </head>
+
 <body>
-    
+<div class="header-container">
+    <img src="./img/main-website-logo.webp" class="website-logo">
+    <button class="header-button header-button1">Enter Pin</button>
+    <button class="header-button">Mumbai</button>
+    <input placeholder="Start Shopping" class="input-start-shopping"/>
+    <button class="search-button"><img src="./icon/search.png" class="search-button-img"></button>
+    <button class="header-button header-button2">Login</button>
+    <a href="#"><img src="./icon/shopping-cart.png" class="shopping-cart"></a>    
+</div>
+
+<div class="pages-container">
+    <p class="pages-text">Festive Gifting</p>
+    <p class="pages-text">Grocery</p>
+    <p class="pages-text">Bakery Shop</p>
+    <p class="pages-text">Exotic Fruits</p>
+    <p class="pages-text">Blog</p>
+    <p class="pages-text">Bevarages</p>
+    <p class="pages-text">Snaking</p>
+
+</div>
+
+<div class="container">
+    <img src="./img/carousol-3.jpg" class="slide" id="slide" />
+    <img src="./img/previous.png" class="icons-action icons-prev" onclick="prev()" />
+    <img src="./img/next.png" class="icons-action icons-next" onclick="next()" />
+</div>
+
+    <p class="shop-by-category-text">SHOP BY CATEGORY</p>
+<div class="shop-by-category-container">
+    <div class="category-image-container">
+        <a><img src="./img/exotic-fruits.png" class="category-img"></a>
+        <p class="category-text">Exotic Fruits</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/meats.jpg" class="category-img"></a>
+        <p class="category-text">Meat and Seafood</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/diary.jpg" class="category-img"></a>
+        <p class="category-text">Diary</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/bread.png" class="category-img"></a>
+        <p class="category-text">Bread</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/chocolate.png" class="category-img"></a>
+        <p class="category-text">Chocolates</p>
+    </div >
+
+    <div class="category-image-container">
+        <a><img src="./img/cheese.png" class="category-img"></a>
+        <p class="category-text">Cheese</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/gifting.png" class="category-img"></a>
+        <p class="category-text">Gifts</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/breakfast.png" class="category-img"></a>
+        <p class="category-text">Breakfast,Jams</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/health.png" class="category-img"></a>
+        <p class="category-text">Health and Wellness</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/grocery.png" class="category-img"></a>
+        <p class="category-text">Grocery</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/beverages.png" class="category-img"></a>
+        <p class="category-text">Bevarages</p>
+    </div>
+
+    <div class="category-image-container">
+        <a><img src="./img/world-foods.png" class="category-img"></a>
+        <p class="category-text">Worlds foods</p>
+    </div>
+
+
+</div>
+
+  <script>
+    const images = [
+      "./img/carousol-1.jpg",
+      "./img/carousol-2.jpg",
+      "./img/carousol-3.jpg",
+      "./img/carousol-4.jpg"
+      
+    ];
+
+    let index = 0;
+    const slide = document.getElementById("slide");
+
+    function next() {
+      if (index < images.length - 1) {
+        index++;
+      } else {
+        index = 0;
+      }
+
+      slide.src = images[index];
+    }
+
+    function prev() {
+      if (index > 0) {
+        index--;
+      } else {
+        index = images.length - 1;
+      }
+
+      slide.src = images[index];
+    }
+  </script>
 </body>
+
 </html>
