@@ -22,8 +22,30 @@
         <button class="header-button">Mumbai</button>
         <input placeholder="Start Shopping" class="input-start-shopping" />
         <button class="search-button"><img src="./icon/search.png" class="search-button-img"></button>
-        <button class="header-button header-button2">Login</button>
+        <button class="header-button header-button2" onclick="openModal()">Login</button>
         <a href="#"><img src="./icon/shopping-cart.png" class="shopping-cart"></a>
+    </div>
+
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <img src="./icon/close.png" class="close-icon" alt="Close" onclick="closeModal()" />
+            <form class="form">
+                <h1 class="form-header">Login</h1>
+
+                <input type="text" placeholder="Enter your name" class="form-input" />
+
+                <input type="email" placeholder="Enter your email" class="form-input" />
+
+                <input type="text" placeholder="Enter your phone number" class="form-input" />
+
+                <input type="text" placeholder="Enter your Address" class="form-input" />
+            </form>
+
+            <button type="button" class="btn-login">
+                Login
+            </button>
+        </div>
     </div>
 
     <div class="pages-container">
@@ -305,6 +327,19 @@
 
 
     <script>
+
+        function openModal() {
+            const overlayElement = document.getElementById('overlay');
+            overlayElement.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const overlayElement = document.getElementById("overlay");
+            overlayElement.style.display = "none";
+        }
+    
+
+
         const images = [
             "./img/carousol-1.jpg",
             "./img/carousol-2.jpg",
