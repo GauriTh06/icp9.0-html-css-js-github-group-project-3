@@ -283,5 +283,100 @@ body
     background-color: #223a5b;
   }
 
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+    .pg-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .input-start-shopping {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .pages-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Tablet screens */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .pg-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 180px;
+        margin: 15px;
+    }
+    .input-start-shopping {
+        width: 90%;
+    }
+    .header-container {
+        flex-wrap: wrap;
+    }
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* Large Tablets */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .pg-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        width: 200px;
+        margin: 20px;
+    }
+    .input-start-shopping {
+        width: 80%;
+    }
+    .header-container {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .footer {
+        font-size: 15px;
+    }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 993px) {
+    .pg-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card {
+        width: 210px;
+        margin: 20px;
+    }
+    .input-start-shopping {
+        width: 750px;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer {
+        font-size: 16px;
+    }
+}
 
 

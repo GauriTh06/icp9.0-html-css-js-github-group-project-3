@@ -343,3 +343,160 @@ footer {
   margin-right:2px; 
 
 }
+
+/* Mobile screens */
+@media screen and (max-width: 600px) {
+  .header-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .website-logo {
+      width: 150px;
+      height: 80px;
+      margin: 10px;
+  }
+  .header-button,
+  .header-button1,
+  .header-button2,
+  .input-start-shopping {
+      width: 90%;
+      margin: 10px 0;
+  }
+  .search-button {
+      width: 40px;
+      height: 40px;
+  }
+  .container {
+      margin: 20px;
+      width: 100%;
+  }
+  .slide {
+      width: 100%;
+      height: auto;
+  }
+  .shop-by-category-container,
+  .whats-trending-main-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .category-image-container,
+  .whats-trending-container {
+      margin: 15px;
+  }
+  .footer-child-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  .footer-img {
+      margin: 5px;
+  }
+  .foot-text {
+      font-size: 12px;
+      text-align: center;
+  }
+}
+
+/* Tablet screens */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .header-container {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .website-logo {
+      width: 200px;
+      height: 100px;
+  }
+  .header-button,
+  .header-button1,
+  .header-button2,
+  .input-start-shopping {
+      width: 80%;
+  }
+  .search-button {
+      width: 45px;
+      height: 45px;
+  }
+  .container {
+      margin: 30px;
+      width: 90%;
+  }
+  .slide {
+      width: 100%;
+      height: auto;
+  }
+  .shop-by-category-container,
+  .whats-trending-main-container {
+      justify-content: space-evenly;
+  }
+  .footer-child-container {
+      justify-content: center;
+  }
+}
+
+/* Large Tablets */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .header-container {
+      justify-content: space-between;
+  }
+  .website-logo {
+      width: 220px;
+      height: 110px;
+  }
+  .header-button,
+  .header-button1,
+  .header-button2,
+  .input-start-shopping {
+      width: 75%;
+  }
+  .container {
+      margin: 40px;
+      width: 85%;
+  }
+  .shop-by-category-container {
+      justify-content: space-around;
+  }
+  .footer-child-container {
+      justify-content: space-between;
+  }
+  .foot-text {
+      font-size: 14px;
+  }
+}
+
+/* Desktop screens */
+@media screen and (min-width: 993px) {
+  .header-container {
+      justify-content: space-between;
+      align-items: center;
+  }
+  .website-logo {
+      width: 250px;
+      height: 120px;
+  }
+  .header-button,
+  .header-button1,
+  .header-button2 {
+      padding: 10px 20px;
+  }
+  .input-start-shopping {
+      width: 750px;
+  }
+  .container {
+      width: fit-content;
+      margin: 50px auto;
+  }
+  .slide {
+      width: 1420px;
+      height: 600px;
+  }
+  .shop-by-category-container,
+  .whats-trending-main-container {
+      justify-content: center;
+  }
+  .footer-child-container {
+      justify-content: space-between;
+  }
+  .foot-text {
+      font-size: 16px;
+  }
+}
