@@ -79,6 +79,9 @@ body{
 }
 .pages-text{
     margin:10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
 }
  
   .container {
@@ -130,10 +133,11 @@ body{
   }
   .category-image-container{
     display:block;
-    margin: 20px 20px ;
+    margin: 30px 25px ;
   }
   .category-img{
     height: 200px;
+    
   }
   .category-text{
     text-align: center;
@@ -141,3 +145,47 @@ body{
     font-size: 20px;
 
   }
+  .slider-container{
+    display:flex;
+    margin: 15px 15px;
+  }
+  .slider-img{
+    height: 250px;
+    margin: 18px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px #18283f75;
+  }
+  .whats-trending-main-container{
+    display:flex;
+    margin: 10px 60px;
+  }
+  .whats-trending-container{
+    display: block;
+    margin: 20px 20px;
+    box-shadow: 0px 5px 4px #18283f75;
+  }
+  .whats-trending-pasta-sause-image{
+    height: 300px;
+  }
+  .card-text{
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+.btn-1{
+    background-color: aliceblue;
+    color:#18283f;
+    border: 1px solid #18283f;
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+.btn-add-to-cart{
+    background-color:#18283f;
+    color:aliceblue;
+    border:none;
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
