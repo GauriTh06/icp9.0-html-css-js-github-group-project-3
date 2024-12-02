@@ -157,7 +157,7 @@ body{
   }
   .whats-trending-main-container{
     display:flex;
-    justify-content: center;
+    justify-content:center;
   }
   .whats-trending-container{
     display: block;
@@ -181,7 +181,10 @@ body{
     font-family: "Kumbh Sans", sans-serif;
     padding: 10px 20px;
     border-radius: 5px;
-    margin: 20px 10px;
+    margin: 15px 10px;
+}
+.btn-11{
+    margin: 5px 10px;
 }
 .btn-add-to-cart{
     background-color:#18283f;
@@ -189,12 +192,15 @@ body{
     border:none;
     font-family: "Kumbh Sans", sans-serif;
     padding: 10px 20px;
-    margin: 20px auto;
+    margin: 15px auto;
     border-radius: 5px;
+}
+.btn-add-to-cart1{
+    margin: 5px auto;
 }
 .discover-more-button-container{
     display:flex;
-    margin:20px 30px;
+    margin:1px 70px;
     justify-content: space-around;
 }
 .discover-more-button{
@@ -202,8 +208,20 @@ body{
     background-color: rgba(111, 110, 110, 0.4);
     border:none;
     font-family: "Kumbh Sans", sans-serif;
-   padding: 20px 30px;
-   font-size: 20px;
-   width: 360px;
+    padding: 20px 30px;
+    font-size: 20px;
+    width: 340px;
+   cursor: pointer;
 
+}
+.discover-more-button:hover{
+    border-bottom:2px solid #18283f;
+    box-shadow: 0px 5px 4px #18283f75; 
+    background-color: aliceblue;
+    border-top: 0.1px  solid #18283f ;
+}
+.btn-atc-container{
+    display: flex;
+    justify-content: center;
+    margin-top:none;
 }
