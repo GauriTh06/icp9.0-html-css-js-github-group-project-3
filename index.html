@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Freshify</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@100..900&family=Parisienne&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
@@ -34,6 +34,48 @@
     <p class="pages-text">Snaking</p>
 
 </div>
+
+<div class="container">
+    <img src="./img/carousol-3.jpg" class="slide" id="slide" />
+    <img src="./img/previous.png" class="icons-action icons-prev" onclick="prev()" />
+    <img src="./img/next.png" class="icons-action icons-next" onclick="next()" />
+
+
+
+</div>
+
+  <script>
+    const images = [
+      "./img/carousol-1.jpg",
+      "./img/carousol-2.jpg",
+      "./img/carousol-3.jpg",
+      "./img/carousol-4.jpg"
+      
+    ];
+
+    let index = 0;
+    const slide = document.getElementById("slide");
+
+    function next() {
+      if (index < images.length - 1) {
+        index++;
+      } else {
+        index = 0;
+      }
+
+      slide.src = images[index];
+    }
+
+    function prev() {
+      if (index > 0) {
+        index--;
+      } else {
+        index = images.length - 1;
+      }
+
+      slide.src = images[index];
+    }
+  </script>
 </body>
 
 </html>

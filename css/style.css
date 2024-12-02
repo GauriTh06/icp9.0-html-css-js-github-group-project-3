@@ -80,3 +80,40 @@ body{
 .pages-text{
     margin:10px 30px;
 }
+ 
+  .container {
+    width: fit-content;
+    margin: 50px 40px;
+    position: relative;
+  }
+
+  .slide {
+    height: 600px;
+    width: 1420px;
+    
+    border-radius: 10px;
+  }
+
+  .icons-action {
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .icons-prev {
+    left: 0;
+  }
+
+  .icons-prev:hover {
+    transform: scale(0.8) translateX(-10px);
+  }
+
+  .icons-next {
+    right: 0;
+  }
+
+  .icons-next:hover {
+    transform: scale(0.8) translateX(10px);
+  }
