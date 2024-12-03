@@ -322,57 +322,6 @@ body
     border-radius: 10px;
     margin: 10px 10px ;
   }
-  .foot-text{
-    font-size: 15px;
-    color: #18283f;
-    font-weight: 300;
-    font-family: "Kumbh Sans", sans-serif;
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-
-  }
-
-.footer-child-container{
-  display: flex;
-}
-
-
-.footer-child-container2{
-  display:flex;
-  margin: 10px 10px;
-  color :#18283f;
- font-size: 30px;
- font-weight: 400;
- font-family: "Kumbh Sans", sans-serif;
-}
-
-.Logo-image2{
-  margin-top: 8px;
-  margin-bottom: 2px;
-  margin-left: 10px;
-  margin-right:2px; 
-
-}
-
-.table-container td
-{
-    font-size: 17px;
-}
-
-.table-container td:hover
-{
-    text-decoration: underline;
-    transition: 4ms;
-    scale: 1.005;
-}
-
-.footer-img:hover
-{
-    scale: 1.1;
-}
-
 
 
 
