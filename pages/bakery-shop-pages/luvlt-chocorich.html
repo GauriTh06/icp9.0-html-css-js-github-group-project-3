@@ -5,8 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LuvIt. Chocorich Assorted Eclairs</title>
     <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+    <link rel="stylesheet" href="./../../css/bakery-shop.css">
+    <link rel="stylesheet" href="./../../css/navbar.css">
   </head>
   <body>
+
+    <div class="header-container">
+      <a href="./../../index.html"><img src="./../../img/main-website-logo.webp" class="website-logo"></a>
+      <button class="header-button header-button1">Enter Pin</button>
+      <button class="header-button header-button3">Mumbai</button>
+      <input placeholder="Start Shopping" class="input-start-shopping"/>
+      <!-- <button class="search-button"><img src="./icon/search.png" class="search-button-img"></button> -->
+      <button class="search-button"><i class="fa-solid fa-magnifying-glass search-button1" ></i></button>
+      <button class="header-button header-button2">Login</button>
+      <a href="#"><i class="fa-solid fa-cart-shopping shopping-cart"></i></a>
+
+      <!-- <a href="#"><img src="./icon/shopping-cart.png" class="shopping-cart"></a>     -->
+  </div>
+
+  <div class="pages-container">
+      <a href="#" ><p class="pages-text">Festive Gifting</p></a>
+      <a href="#"><p class="pages-text">Grocery</p></a>
+      <a href="./../bakery-shop.html"><p class="pages-text">Bakery Shop</p></a>
+      <a href="./../ExoticFruit.html"><p class="pages-text">Exotic Fruits</p></a>
+      <a href="#"><p class="pages-text">Blog</p></a>
+      <a href="./../Beverages/beverages.html"><p class="pages-text">Bevarages</p></a>
+      <a href="#"><p class="pages-text">Snacking</p></a>
+  
+  </div>
+
+  <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+    
+    <div class="sidebar" id="sidebar">
+        <i class="fa-solid fa-circle-xmark close-menu" onclick="closeSidebar()"></i>
+        <a href="#"><p class="pages-text1">Festive Gifting</p></a>
+        <a href="#"><p class="pages-text1">Grocery</p></a>
+        <a href="./../bakery-shop.html"><p class="pages-text1">Bakery Shop</p></a>
+        <a href="./../ExoticFruit.html"><p class="pages-text1">Exotic Fruits</p></a>
+        <a href="#"><p class="pages-text1">Blog</p></a>
+        <a href="./../Beverages/beverages.html"><p class="pages-text1">Beverages</p></a>
+        <a href="#"><p class="pages-text1">Snacking</p></a>
+    </div>
+
+
     <div class="container">
       <img
         src="./../../img/chocolate-catb.jpg"
@@ -83,5 +124,7 @@
     </div>
 
     <script src="./../../js/bakery-shop.js"></script>
+
+    <script src="https://kit.fontawesome.com/10e1ccecc8.js" crossorigin="anonymous"></script>
   </body>
 </html>

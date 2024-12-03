@@ -71,7 +71,8 @@ span{
 }
 
 .btn2 {
-  background-color: orange;
+  background-color: blue;
+  /* background-color: orange; */
 }
 @media (max-width: 768px) {
   .heading {
