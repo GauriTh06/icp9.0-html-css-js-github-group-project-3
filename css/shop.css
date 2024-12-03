@@ -71,7 +71,9 @@ span{
 }
 
 .btn2 {
-  background-color: blue;
+  background-color: rgb(163, 207, 246);
+  color: black;
+  /* background-color: blue; */
   /* background-color: orange; */
 }
 @media (max-width: 768px) {
