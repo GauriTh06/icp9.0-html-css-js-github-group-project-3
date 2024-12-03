@@ -23,6 +23,7 @@ span{
 }
 
 .container1 {
+  font-family: "Kumbh Sans", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -30,6 +31,7 @@ span{
   /* padding: 7% 15%; */
 }
 .card1 {
+  font-family: "Kumbh Sans", sans-serif;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 27px;
@@ -51,11 +53,12 @@ span{
   font-family: "Kumbh Sans", sans-serif;
   padding: 20px 10px;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 24px;
   /* font-weight: bold; */
 }
 
 .btn {
+  font-family: "Kumbh Sans", sans-serif;
   margin: 10px;
   padding: 10px;
   font-size: 1.2rem;
@@ -63,6 +66,7 @@ span{
   border: none;
   /* width: 25%; */
   color: white;
+  cursor: pointer;
   
 }
 
@@ -71,7 +75,8 @@ span{
 }
 
 .btn2 {
-  background-color: rgb(193, 221, 246);
+  /* background-color: rgb(193, 221, 246); */
+  background-color: aliceblue;
   color: black;
   border: 1px solid #18283f;
   /* background-color: blue; */
