@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
+  font-family: "Kumbh Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,7 +22,8 @@ body {
 
 .main-head {
   font-size: 2.5rem;
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Kumbh Sans", sans-serif;
   color: white;
   padding: 15px;
   transform: scaleY(0.8);
@@ -55,7 +57,8 @@ body {
 
 .premium {
   font-style: italic; 
-  font-family: Verdanaa; 
+  /* font-family: Verdanaa;  */
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 2.3rem
 }
 .main-head1 {
