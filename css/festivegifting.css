@@ -102,10 +102,11 @@ color:white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 .filter
 {
-    width: 300px;
+    width:500px;
     border-right: 2px solid rgba(0,0,0,0.1);
     background-color: #fff;
     font-family: "Kumbh Sans", sans-serif;
@@ -116,7 +117,7 @@ color:white;
     text-align: center;
     padding-bottom: 10px;
     border-bottom: rgba(0,0,0,0.2) 1px solid;
-    width: 90%;
+    width:250px;
     margin: 15px auto;
     color: rgb(8, 50, 82);
     font-family: "Kumbh Sans", sans-serif;
@@ -154,4 +155,109 @@ color:white;
     border-top: rgba(0,0,0,0.3) solid 1.5px ;
     border-bottom: rgba(0,0,0,0.3) solid 1.5px ;
     background-color: rgba(158, 240, 255, 0.175);
+}
+
+.form-text{
+    font-size:20px;
+    text-align: center;
+    color: #060606;
+}
+
+.form-container{
+    background-color: aliceblue;
+    padding: 5px 0;
+    width:220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:none;
+    margin-top: 30px;
+    position:absolute;
+    left:15px;
+    bottom: 2500px;
+}
+
+.form{
+    text-align: center;
+}
+
+.input-box{
+    height: 20px;
+    width: 170px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 2px;
+    margin-top: 2px;
+    padding: 3px;
+}
+
+.message-box{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    padding:5px;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    background-color:#172c66;
+    color: white;
+    border: 1px solid  #172c66;;
+    margin-bottom: 15px;
+}
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.model{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.model-heading{
+    font-size: 20px;
+    color:#172c66 ;
+    margin-left: 140px;
+}
+
+.dialog-paragraph{
+    font-size: 15px;
+    color: #172c66;
+}
+
+.ok-btn{
+    background-color: #fff;
+    color: #172c66;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.ok-btn:hover{
+    background-color:#172c66;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-icon{
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
 }
