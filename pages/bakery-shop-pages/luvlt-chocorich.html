@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuvIt. Chocorich Assorted Eclairs</title>
+    <link rel="stylesheet" href="./../css/bu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../img/chocolate-catb.jpg"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../img/chocolate-catb.jpg"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../img/chocolate-catb.jpg')"
+        />
+        <img
+          src="./../img/luvlt1.jpg"
+          id="img1"
+          onclick="changeimg('./../img/luvlt1.jpg')"
+        />
+        <img
+          src="./../img/luvlt2.jpg"
+          id="img1"
+          onclick="changeimg('./../img/luvlt2.jpg')"
+        />
+        <img
+          src="./../img/luvlt3.jpg"
+          id="img1"
+          onclick="changeimg('./../img/luvlt3.jpg')"
+        />
+      </div>
+      <div class="details">
+        <h1>LuvIt. Chocorich Assorted Eclairs</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Chocolate</p>
+        <hr />
+        <p class="price" id="price" data-price="315.00">Rs. 315.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 480g </label>
+          <select id="weight">
+            <option>480g</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 315.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          Indulge in the rich and delicious flavors of LuvIt's Chocorich
+          Assorted Eclairs - the best chocolate eclairs in India
+        </p>
+        <p class="text-contain">
+          This pack offers eclairs in exotic flavours like hazelnut, dark and
+          milk chocolate
+        </p>
+        <p class="text-contain">
+          Bigger eclairs for a more indulging experience. Each eclair is 8 gm in
+          size, giving you more chocolaty goodness in every biteThese soft and
+          creamy eclairs offer a burst of chocolaty goodness with every bite
+        </p>
+
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../script/bakery-shop.js"></script>
+  </body>
+</html>

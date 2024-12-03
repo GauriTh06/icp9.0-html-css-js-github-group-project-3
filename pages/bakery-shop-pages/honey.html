@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey and Hazelnut Granola</title>
+    <link rel="stylesheet" href="./../css/bu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./../img/honey1.webp" alt="celebration-cakes" id="mainimg" />
+      <div id="priductimgcont">
+        <img
+          src="./../img/honey1.webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../img/honey1.webp')"
+        />
+        <img
+          src="./../img/honey3.webp"
+          id="img1"
+          onclick="changeimg('./../img/honey3.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Honey and Hazelnut Granola</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Granola</p>
+        <hr />
+        <p class="price" id="price" data-price="449.00">Rs. 449.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 250g </label>
+          <select id="weight">
+            <option>250g</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 449.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          Brownsalt's Honey and Hazelnut Granola is a classic combination of
+          honeyed hazelnuts with toasty oats
+        </p>
+
+        <p class="text-contain">
+          Great as a morning cereal,atop yogurt,tossed in a salad or simply by
+          the handful.
+        </p>
+
+        <p class="text-contain">Net Weight: 250 gms</p>
+
+        <p class="text-contain">Ingredients:</p>
+
+        <p class="text-contain">
+          Rolled oats,hazelnuts ,honey,brown sugar, olive oil, sea salt,vanilla
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../script/bakery-shop.js"></script>
+  </body>
+</html>

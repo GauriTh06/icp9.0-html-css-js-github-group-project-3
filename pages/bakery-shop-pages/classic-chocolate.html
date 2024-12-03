@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Chocolate Ganache Cake</title>
+    <link rel="stylesheet" href="./../css/bu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../img/Classic-Chocolate-Ganache-Cake.jpg"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../img/Classic-Chocolate-Ganache-Cake.jpg"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../img/Classic-Chocolate-Ganache-Cake.jpg')"
+        />
+        <img
+          src="./../img/Ccassic-chocolate1.webp"
+          id="img1"
+          onclick="changeimg('./../img/Ccassic-chocolate1.webp')"
+        />
+        <img
+          src="./../img/classic2.webp"
+          id="img1"
+          onclick="changeimg('./../img/classic2.webp')"
+        />
+        <img
+          src="./../img/classic3.webp"
+          id="img1"
+          onclick="changeimg('./../img/classic3.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Classic Chocolate Ganache Cake</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cake</p>
+        <hr />
+        <p class="price" id="price" data-price="799.00">Rs. 799.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 1 kg </label>
+          <select id="weight">
+            <option>1 kg</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 799.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          Moist and decadent layers of rich chocolate cake and chocolate ganache
+          topped with the finest cocoa. Ingredients - Water, refined wheat
+          flour, cocoa powder, sugar, olive oil, raising agent, fresh cream &
+          chocolate. (Eggless)
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../script/bakery-shop.js"></script>
+  </body>
+</html>

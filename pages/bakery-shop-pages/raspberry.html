@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Forest Cake</title>
+    <link rel="stylesheet" href="./../css/bu.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <a href="./../index.html"><i class="fas fa-arrow-left back-icon"></i></button></a>
+        <img src="./../img/im12/celebration-cales.webp" alt="celebration-cakes" id="mainimg">
+        <div id="priductimgcont">
+            <img src="./../img/im12/celebration-cales.webp" id="img1"
+                onclick="changeimg('./../img/im12/celebration-cales.webp')" />
+            <img src="./../img/raspberrycakeimg.webp" id="img1" onclick="changeimg('./../img/raspberrycakeimg.webp')" />
+
+        </div>
+        <div class="details">
+            <h1>
+                Raspberry Forest Cake
+            </h1>
+            <hr />
+            <p>
+                Availability: In Stock
+            </p>
+            <p>
+                Product Type: Cake
+            </p>
+            <hr />
+            <p class="price" id="price" data-price="999.00">
+                Rs. 999.00
+            </p>
+            <div class="weight">
+                <label for="weight">
+                    Weight: 1 kg
+                </label>
+                <select id="weight">
+                    <option>1 kg</option>
+                </select>
+            </div>
+            <div class="quantity">
+                <label for="quantity">
+                    Quantity :
+                </label> &nbsp;&nbsp;&nbsp;
+                <button>
+                    -
+                </button>
+                <input id="quantity" type="text" value="1" />
+                <button>
+                    +
+                </button>
+            </div>
+            <p class="subtotal">
+                Subtotal: Rs. 999.00
+            </p>
+            <br>
+            <hr>
+            <h2>Description</h2>
+            <p class="text-contain">For the love of chocolate and raspberry.
+                Layers of moist chocolate cake, mascarpone cream , tarty raspberry compote and airy chocolate mousse.
+                (eggless)</p>
+            <div class="buttons">
+                <button class="add-to-cart">
+                    ADD TO CART
+                </button>
+                <button class="buy-now">
+                    Buy it now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/10e1ccecc8.js" crossorigin="anonymous"></script>
+
+    <script src="./../script/bakery-shop.js"></script>
+</body>
+</html>

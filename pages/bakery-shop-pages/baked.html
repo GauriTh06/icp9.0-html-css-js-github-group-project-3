@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baked NY Cheesecake with Blueberries</title>
+    <link rel="stylesheet" href="./../css/bu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../img/baked-cheesecake.webp"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../img/baked-cheesecake.webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../img/baked-cheesecake.webp')"
+        />
+        <img
+          src="./../img/baked1.webp"
+          id="img1"
+          onclick="changeimg('./../img/baked1.webp')"
+        />
+        <img
+          src="./../img/baked3.webp"
+          id="img1"
+          onclick="changeimg('./../img/baked3.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Baked NY Cheesecake with Blueberries</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cake</p>
+        <hr />
+        <p class="price" id="price" data-price="1499.00">Rs. 1499.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 1 kg </label>
+          <select id="weight">
+            <option>1 kg</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 1499.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          A NY classic super creamy cake made from the finest ingredients, cream
+          cheese over a crumbly cracker crust. With a topping of fresh
+          blueberries & mulberries (Contains Egg)
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../script/bakery-shop.js"></script>
+  </body>
+</html>
