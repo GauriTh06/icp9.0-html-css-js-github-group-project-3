@@ -12,6 +12,24 @@ function decrement(counterId) {
     alert("one item remove successfully" );
   }
 
+} 
+const search=()=>{
+const searchbox=document.getElementById('search').value.toLowerCase();
+const storeitems=document.getElementById('products_contener');
+const product=document.querySelectorAll('.product');
+const pname=document.getElementsByClassName('product-name');
+for(let i=0 ;i<pname.length; i++){
+  let match=product[i].getElementsByClassName('product-name')[0];
+  if(match){
+     let textvalue =match.textContent||match.innerHTML
+    if(textvalue.toLowerCase().indexOf(searchbox)>-1){
+      product[i].style.display="";
+    }
+   else{
+    product[i].style.display="none";
+   }
+    }
+  }
 }
 
 function openModel() {
