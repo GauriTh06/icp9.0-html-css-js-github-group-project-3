@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berry Cake</title>
+    <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./../../img/berry-cack.jpg" alt="celebration-cakes" id="mainimg" />
+      <div id="priductimgcont">
+        <img
+          src="./../../img/berry1.webp"
+          id="img1"
+          onclick="changeimg('./../../img/berry1.webp')"
+        />
+        <img
+          src="./../../img/berry-cack.jpg"
+          id="img1"
+          onclick="changeimg('./../../img/berry-cack.jpg')"
+        />
+      </div>
+      <div class="details">
+        <h1>The Very Berry Cake</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cake</p>
+        <hr />
+        <p class="price" id="price" data-price="1599.00">Rs. 1599.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 1/2 kg </label>
+          <select id="weight">
+            <option>1/2 kg</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 1599.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          Layers of rich chocolate cake and chocolate ganache topped with fresh
+          berries. Ingredients - Water, refined wheat flour, cocoa powder,
+          sugar, olive oil, raising agent, fresh cream & chocolate. Allergen –
+          Contains Dairy. Please note- Fruits as per availability. Berries are
+          only used on top as decor (Eggless)
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../js/bakery-shop.js"></script>
+  </body>
+</html>

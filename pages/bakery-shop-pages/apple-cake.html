@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whole Wheat Apple Cake with Maple Cream Cheese</title>
+    <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../../img/whole-wheat-apple .webp"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../../img/whole-wheat-apple .webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../../img/whole-wheat-apple .webp')"
+        />
+        <img
+          src="./../../img/applecake1.webp"
+          id="img1"
+          onclick="changeimg('./../../img/applecake1.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Whole Wheat Apple Cake with Maple Cream Cheese</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cake</p>
+        <hr />
+        <p class="price" id="price" data-price="999.00">Rs. 999.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 1/2 kg </label>
+          <select id="weight">
+            <option>1/2 kg</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 999.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          (Contains eggs) A tender 50 % whole wheat flour cake offset with the
+          warm flavour of baked apples and raisins. Topped with irresistible
+          cream cheese frosting made with pure Canadian maple syrup and
+          decorated with edible flowers. (*flowers are subject to availability)
+          Ingredients – Whole wheat flour, refined wheat flour, apples, olive
+          oil, raisins, sugar, eggs, vanilla, cream cheese, butter, maple syrup,
+          walnuts.
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../js/bakery-shop.js"></script>
+  </body>
+</html>
