@@ -323,5 +323,37 @@ body
     margin: 10px 10px ;
   }
 
+  .foot-text{
+    font-size: 15px;
+    color: #18283f;
+    font-weight: 300;
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+  }
+.footer-child-container{
+  display: flex;
+}
+
+
+.footer-child-container2{
+  display:flex;
+  margin: 10px 10px;
+  color :#18283f;
+ font-size: 30px;
+ font-weight: 400;
+ font-family: "Kumbh Sans", sans-serif;
+ text-decoration: none;
+}
+
+.Logo-image2{
+  margin-top: 8px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right:2px;
+}
 
 
