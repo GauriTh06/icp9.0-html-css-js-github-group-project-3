@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assorted Cookies</title>
+    <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../../img/assortedcookies .webp"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../../img/assortedcookies .webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../../img/assortedcookies .webp')"
+        />
+        <img
+          src="./../../img/assort1.webp"
+          id="img1"
+          onclick="changeimg('./../../img/assort1.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Assorted Cookies</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cookies</p>
+        <hr />
+        <p class="price" id="price" data-price="199.00">Rs. 199.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 250g </label>
+          <select id="weight">
+            <option>250g</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 199.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          (Contains Egg) Brownsalt's Almond Biscotti is a perfect snack with
+          your evening chai or coffee. Net Weight: 100 gms Ingredients: Flour,
+          sugar, eggs, almonds, baking powder & butter.
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../js/bakery-shop.js"></script>
+  </body>
+</html>

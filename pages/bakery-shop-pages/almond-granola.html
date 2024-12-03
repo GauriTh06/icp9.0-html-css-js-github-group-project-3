@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuvIt. Chocorich Assorted Eclairs</title>
+    <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./../../img/almond1.webp" alt="celebration-cakes" id="mainimg" />
+      <div id="priductimgcont">
+        <img
+          src="./../../img/almond1.webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../../img/almond1.webp')"
+        />
+        <img
+          src="./../../img/almond4.webp"
+          id="img1"
+          onclick="changeimg('./../../img/almond4.webp')"
+        />
+        <img
+          src="./../../img/almond5.webp"
+          id="img1"
+          onclick="changeimg('./../../img/almond5.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>LuvIt. Chocorich Assorted Eclairs</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Granola</p>
+        <hr />
+        <p class="price" id="price" data-price="499.00">Rs. 499.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 250g </label>
+          <select id="weight">
+            <option>250g</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 499.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          A Brownsalt Favourite, with the perfect combination of toasty nuts and
+          seeds along with natural dried cranberries.
+        </p>
+
+        <p class="text-contain">
+          Great as a morning cereal,atop yogurt,tossed in a salad or simply by
+          the handful.
+        </p>
+
+        <p class="text-contain">Net Weight: 250 gms</p>
+
+        <p class="text-contain">Almond Granola Ingredients:</p>
+
+        <p class="text-contain">
+          Rolled oats,almonds ,honey ,dried cranberries,brown sugar,pumpkin
+          seeds,sunflower seeds,vanilla,sea salt, olive oil
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../js/bakery-shop.js"></script>
+  </body>
+</html>

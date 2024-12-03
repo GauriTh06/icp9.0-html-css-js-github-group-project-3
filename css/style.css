@@ -62,7 +62,7 @@ body{
     border:none;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.875);
     position: fixed;
     top: 0;
     left: 0;
@@ -75,10 +75,9 @@ body{
 
 .modal {
     background-color: #18283f;
-    ;
     padding: 20px 30px;
     border-radius: 10px;
-    position: relative;
+    position: fixed;
 }
 .form-header{
     color:aliceblue;

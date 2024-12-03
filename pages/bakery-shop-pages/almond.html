@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almond Biscotti</title>
+    <link rel="stylesheet" href="./../../css/bakery-preview.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./../../img/almond-biscotti.webp"
+        alt="celebration-cakes"
+        id="mainimg"
+      />
+      <div id="priductimgcont">
+        <img
+          src="./../../img/almond-biscotti.webp"
+          id="img1"
+          alt="celebration-cakes"
+          onclick="changeimg('./../../img/almond-biscotti.webp')"
+        />
+        <img
+          src="./../../img/almond1.webp"
+          id="img1"
+          onclick="changeimg('./../../img/almond1.webp')"
+        />
+        <img
+          src="./../../img/almond2.webp"
+          id="img1"
+          onclick="changeimg('./../../img/almond2.webp')"
+        />
+      </div>
+      <div class="details">
+        <h1>Almond Biscotti</h1>
+        <hr />
+        <p>Availability: In Stock</p>
+        <p>Product Type: Cookies</p>
+        <hr />
+        <p class="price" id="price" data-price="99.00">Rs. 99.00</p>
+        <div class="weight">
+          <label for="weight"> Weight: 100g </label>
+          <select id="weight">
+            <option>100g</option>
+          </select>
+        </div>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Subtotal: Rs. 99.00</p>
+        <br />
+        <hr />
+        <h2>Description</h2>
+        <p class="text-contain">
+          (Contains Egg) Brownsalt's Almond Biscotti is a perfect snack with
+          your evening chai or coffee. Net Weight: 100 gms Ingredients: Flour,
+          sugar, eggs, almonds, baking powder & butter.
+        </p>
+        <br />
+        <br />
+        <div class="buttons">
+          <button class="add-to-cart">ADD TO CART</button>
+          <button class="buy-now">Buy it now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./../../js/bakery-shop.js"></script>
+  </body>
+</html>
