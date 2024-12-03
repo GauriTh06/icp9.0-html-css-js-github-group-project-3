@@ -66,4 +66,3 @@ function resetFruitGame() {
     initializeFruitGame();
     document.getElementById('resultFruit').innerText = '';
 }
-  
