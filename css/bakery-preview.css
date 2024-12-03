@@ -121,9 +121,11 @@ body {
 }
 .details .buttons .buy-now {
   font-family: "Kumbh Sans", sans-serif;
-  background-color: blue;
+  background-color: rgb(145, 202, 252);
+  /* color: #fff; */
+  /* background-color: blue; */
   /* background-color: orange; */
-  color: #fff;
+  color: black;
 }
 .details .wishlist {
   display: flex;

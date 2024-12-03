@@ -71,7 +71,10 @@ span{
 }
 
 .btn2 {
-  background-color: blue;
+  background-color: rgb(193, 221, 246);
+  color: black;
+  border: 1px solid #18283f;
+  /* background-color: blue; */
   /* background-color: orange; */
 }
 @media (max-width: 768px) {
