@@ -39,3 +39,31 @@ function resetWordsGame() {
     document.getElementById('sentenceInput').value = '';
     document.getElementById('result2').innerText = '';
 }
+
+
+const fruits = [
+    { name: 'Apple', image: '/img/apple.png' },
+    { name: 'Banana', image: '/img/banana.png' },
+    { name: 'Orange', image: '/img/orange.png' }
+];
+
+function initializeFruitGame() {
+    const randomFruit = fruits[Math.floor(Math.random() * fruits.length)];
+    document.getElementById('fruit-image').src = randomFruit.image;
+    document.getElementById('fruit-image').dataset.name = randomFruit.name;
+}
+
+function chooseFruit(name) {
+    const fruitName = document.getElementById('fruit-image').dataset.name;
+
+    if (name === fruitName) {
+        document.getElementById('resultFruit').innerText = `Correct! The fruit is ${fruitName}.🤩`;
+    } else {
+        document.getElementById('resultFruit').innerText = `Wrong!😥 The fruit is ${fruitName}.`;
+    }
+}
+function resetFruitGame() {
+    initializeFruitGame();
+    document.getElementById('resultFruit').innerText = '';
+}
+  
