@@ -9,7 +9,7 @@ const pricePerItem = parseFloat(priceElement.getAttribute("data-price"));
 function updateSubtotal() {
   const quantity = parseInt(quantityInput.value);
   const subtotal = quantity * pricePerItem;
-  subtotalElement.textContent = `Subtotal: Rs. ${subtotal.toFixed(2)}`;
+  subtotalElement.textContent = `Total: Rs. ${subtotal.toFixed(2)}`;
 }
 
 decrementButton.addEventListener("click", () => {
