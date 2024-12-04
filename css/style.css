@@ -71,6 +71,7 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 .modal {
@@ -78,6 +79,7 @@ body{
     padding: 20px 30px;
     border-radius: 10px;
     position: fixed;
+    
 }
 .form-header{
     color:aliceblue;
