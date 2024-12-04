@@ -21,3 +21,15 @@ function getdark(mode)
     }
 }
 
+function opentcart() 
+{
+    const overlayer = document.getElementById("overlay1");
+    overlayer.style.display = "flex";
+}
+
+function closecart() 
+{
+    const overlayer = document.getElementById("overlay1");
+    overlayer.style.display = "none";  
+}
+
