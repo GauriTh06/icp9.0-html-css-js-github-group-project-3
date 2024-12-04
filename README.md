@@ -7,11 +7,10 @@ Welcome to the Freshify project! This is an e-commerce website designed to provi
 1. [Project Overview](#project-overview)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
-4. [Project Structure](#project-structure)
-5. [Setup and Installation](#setup-and-installation)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+ 
 
 
 ## Project Overview
