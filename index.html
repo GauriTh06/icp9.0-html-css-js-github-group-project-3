@@ -13,11 +13,13 @@
     <link rel="icon" type="image/x-icon" href="./icon/unnamed.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/beverages.css">
+    <link rel="stylesheet" href="./css/fgoo.css">
+    <link rel="stylesheet" href="./css/bakery-shop.css">
 
 </head>
 
 <body>
-    <div class="header-container">
+    <!-- <div class="header-container">
         <a href="index.html"><img src="./img/main-website-logo.webp" class="website-logo"></a>
         <button class="header-button header-button1">Enter Pin</button>
         <button class="header-button">Mumbai</button>
@@ -25,16 +27,55 @@
         <button class="search-button"><img src="./icon/search.png" class="search-button-img"></button>
         <button class="header-button header-button2" onclick="openModal()">Login</button>
         <a href="#"><img src="./icon/shopping-cart.png" class="shopping-cart"></a>    
+    </div>-->
+    
+
+    <div class="header-container">
+        <img src="./img/main-website-logo.webp" class="website-logo">
+        <button class="header-button header-button1">Enter Pin</button>
+        <button class="header-button header-button3">Mumbai</button>
+        <input placeholder="Start Shopping" class="input-start-shopping"/>
+        <!-- <button class="search-button"><img src="./icon/search.png" class="search-button-img"></button> -->
+        <button class="search-button"><i class="fa-solid fa-magnifying-glass search-button1" ></i></button>
+        <button class="header-button header-button2" onclick="openModal()">Login</button>
+        <a href="#"><i class="fa-solid fa-cart-shopping shopping-cart"></i></a>
+  
+        <!-- <a href="#"><img src="./icon/shopping-cart.png" class="shopping-cart"></a>     -->
     </div>
+
     <div class="pages-container">
-        <a href="#"><li class="pages-text">Festive Gifting</li></a>
+        <a href="./pages/festive gifting.html"><li class="pages-text">Festive Gifting</li></a>
         <a href="#"><li class="pages-text">Grocery</li></a>
         <a href="./pages/bakery-shop.html"><li class="pages-text">Bakery Shop</li></a>
         <a href="./pages/ExoticFruit.html"><li class="pages-text">Exotic Fruits</li></a>
         <a href="#"><li class="pages-text">Blog</li></a>
         <a href="./pages/Beverages/beverages.html"><li class="pages-text" >Bevarages</li></a>
         <a href="#"><li class="pages-text">Snaking</li></a>
-    </div>
+    </div> 
+  
+    <!--<div class="pages-container">
+        <a href="./pages/festive gifting.html" ><p class="pages-text">Festive Gifting</p></a>
+        <a href="#"><p class="pages-text">Grocery</p></a>
+        <a href="./pages/bakery-shop.html"><p class="pages-text">Bakery Shop</p></a>
+        <a href="./pages/ExoticFruit.html"><p class="pages-text">Exotic Fruits</p></a>
+        <a href="#"><p class="pages-text">Blog</p></a>
+        <a href="./pages/Beverages/"><p class="pages-text">Bevarages</p></a>
+        <a href="#"><p class="pages-text">Snacking</p></a>
+    
+    </div>-->
+  
+    <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+      
+      <div class="sidebar" id="sidebar">
+          <i class="fa-solid fa-circle-xmark close-menu" onclick="closeSidebar()"></i>
+          <a href="indexnav.html"><p class="pages-text1">Festive Gifting</p></a>
+          <a href="#"><p class="pages-text1">Grocery</p></a>
+          <a href="#"><p class="pages-text1">Bakery Shop</p></a>
+          <a href="#"><p class="pages-text1">Exotic Fruits</p></a>
+          <a href="#"><p class="pages-text1">Blog</p></a>
+          <a href="#"><p class="pages-text1">Beverages</p></a>
+          <a href="#"><p class="pages-text1">Snacking</p></a>
+      </div>
 
 
     <div class="overlay" id="overlay">
@@ -62,37 +103,44 @@
 
 
     
+    <div>
 
+        <!-- <div style="display: none;">
     <div class="container">
         <img src="./img/carousol-3.jpg" class="slide" id="slide" />
         <img src="./img/previous.png" class="icons-action icons-prev" onclick="prev()" />
         <img src="./img/next.png" class="icons-action icons-next" onclick="next()" />
     </div>
-
+</div> -->
+    <div class="container1">
+    <img src="./img/carousol-3.jpg" class="slide" id="slide" alt="slide" height="80%" width="100%" style="padding: 5px;">
+    <img src="./img/previous.png" class="icons-action icons-prev" onclick="prev()" />
+        <img src="./img/next.png" class="icons-action icons-next" onclick="next()" />
+    </div>
     <p class="shop-by-category-text">SHOP BY CATEGORY</p>
     <div class="shop-by-category-container">
         <div class="category-image-container">
-            <a><img src="./img/exotic-fruits.png" class="category-img"></a>
+            <a href="./pages/ExoticFruit.html"><img src="./img/exotic-fruits.png" class="category-img"></a>
             <p class="category-text">Exotic Fruits</p>
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/meats.jpg" class="category-img"></a>
+            <a href="./pages/BerriesFruits.html"><img src="./img/meats.jpg" class="category-img"></a>
             <p class="category-text">Meat and Seafood</p>
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/diary.jpg" class="category-img"></a>
+            <a href="./pages/bakery-shop.html"><img src="./img/diary.jpg" class="category-img"></a>
             <p class="category-text">Diary</p>
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/bread.png" class="category-img"></a>
+            <a href="./pages/bakery-shop.html"><img src="./img/bread.png" class="category-img"></a>
             <p class="category-text">Bread</p>
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/chocolate.png" class="category-img"></a>
+            <a href="./pages/festive&occasions.html"><img src="./img/chocolate.png" class="category-img"></a>
             <p class="category-text">Chocolates</p>
         </div>
 
@@ -102,7 +150,7 @@
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/gifting.png" class="category-img"></a>
+            <a href="./pages/festive gifting.html"><img src="./img/gifting.png" class="category-img"></a>
             <p class="category-text">Gifts</p>
         </div>
 
@@ -122,7 +170,7 @@
         </div>
 
         <div class="category-image-container">
-            <a><img src="./img/beverages.png" class="category-img"></a>
+            <a href="./pages/Beverages/beverages.html"><img src="./img/beverages.png" class="category-img"></a>
             <p class="category-text">Bevarages</p>
         </div>
 
@@ -267,51 +315,59 @@
         
     </div>
 
-    <footer>
-        <table width="100%" class="table-container foot-text">
-            <tr>
-                <td><div class="footer-child-container"><img src="./icon/unnamed.png" class="Logo-image"height="30px"><p class="websitename">Freshify.com</p></div></td>
-                <td class="color">Company</td>
-                <td class="color">Partner Sites</td>
-                <td class="color">Explore</td>
+</div>
 
-
-            </tr>
-            <tr>
-                <td><div class="footer-child-container2"><a href="#"><img src="./icon/facebook.png" class="footer-img"></a>
-                    <a href="#"><img src="./icon/instagram.png" class="footer-img"></a>
-                    <a href="#"><img src="./icon/linkedin (1).png" class="footer-img"></a>
-                    <a href="#"><img src="./icon/github.png" class="footer-img"></a>
-                    <a href="#"><img src="./icon/twitter.png" class="footer-img"></a></div></td>
-                <td>Carrer</td>
-                <td>Proptiger</td>
-                <td>News</a></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td>About Us</td>
-                <td>Grocery</td>
-                <td>Tasty Food</a> </td>
-            </tr>
-            <tr>
-                <td><div class="footer-container">
-                    <p class="foot-text">&copy; 2024 E-commerce Webpage. All rights reserved.</p>
-                </div></td>
-                <td>For Partners</td>
-                <td>Veggies.com</td>
-                <td>Eating Map</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Terms</td>
-                <td>Grocery.com</td>
-                <td>International</td>
-                
-            </tr>
-
-        </table>
-        
+    <footer class="footer1">
+        <div class="footer-container">
+          <div>
+          <div class="footer-logo">
+           <a href=""> <img src="./icon/unnamed.png" class="Logo-image" height="30px"></a>
+            <!-- <img src="./img/main-website-logo.webp" alt="" height="80px" width="220px"> -->
+            <p class="websitename">Freshify.com</p> <br>
+          </div>  
+            <div class="footer-social">
+              <a href="#"><img src="./icon/facebook.png" class="footer-img"></a>
+              <a href="#"><img src="./icon/instagram.png" class="footer-img"></a>
+              <a href="#"><img src="./icon/linkedin (1).png" class="footer-img"></a>
+              <a href="#"><img src="./icon/github.png" class="footer-img"></a>
+              <a href="#"><img src="./icon/twitter.png" class="footer-img"></a>
+            </div>
+          </div>
+          
+          <div class="footer-links">
+            <div class="footer-column">
+              <p class="column-title">Company</p>
+              <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">For Partners</a></li>
+                <li><a href="#">Terms</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <p class="column-title">Partner Sites</p>
+              <ul>
+                <li><a href="#">Proptiger</a></li>
+                <li><a href="#">Grocery</a></li>
+                <li><a href="#">Veggies.com</a></li>
+                <li><a href="#">Grocery.com</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <p class="column-title">Explore</p>
+              <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Tasty Food</a></li>
+                <li><a href="#">Eating Map</a></li>
+                <li><a href="#">Interational</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 E-commerce Webpage. All rights reserved.</p>
+        </div>
+    </div>
     </footer>
 
 
@@ -471,6 +527,27 @@
             }
         }
     </script>
+
+<script
+src="https://kit.fontawesome.com/10e1ccecc8.js"
+crossorigin="anonymous"
+></script>
+
+<script>
+    function openSidebar() {
+  const sidebar = document.getElementById("sidebar");
+  const isVisible = sidebar.style.display === "block";
+  sidebar.style.display = isVisible ? "none" : "block";
+}
+
+function closeSidebar() {
+  const sidebar = document.getElementById("sidebar");
+  const isVisible = sidebar.style.display === "block";
+  sidebar.style.display = isVisible ? "none" : "block";
+}
+</script>
+
+
 </body>
 
 </html>

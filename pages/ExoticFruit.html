@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Freshify</title>
-    <link rel="stylesheet" href="../../css/beverages.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/beverages.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bakery-shop.css">
     <script src="../../js/beverages.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,17 +20,37 @@
         <button class="header-button">Mumbai</button>
         <input placeholder="Start Shopping" class="input-start-shopping"/>
         <button class="search-button"><img src="../../icon/search.png" class="search-button-img"></button>
-        <button class="header-button header-button2">Login</button>
-        <a href="#"><img src="../../icon/shopping-cart.png" class="shopping-cart"></a>    
+        <button class="header-button header-button2" onclick="openModal()">Login</button>
+        <a href="#"><img src="/icon/shopping-cart.png" class="shopping-cart"></a>    
     </div>
     <div class="pages-container">
-        <li class="pages-text">Festive Gifting</li>
-        <li class="pages-text">Grocery</li>
-        <li class="pages-text">Bakery Shop</li>
-        <li class="pages-text" id="beverages">Exotic Fruits</li>
-        <li class="pages-text">Blog</li>
-        <li class="pages-text">Bevarages</li>
-        <li class="pages-text">Snaking</li>
+        <a href="#"><li class="pages-text">Festive Gifting</li></a>
+        <a href="#"><li class="pages-text">Grocery</li></a>
+        <a href="/pages/bakery-shop.html"><li class="pages-text">Bakery Shop</li></a>
+        <a href="/pages/ExoticFruit.html"><li class="pages-text"  id="beverages">Exotic Fruits</li></a>
+        <a href="#"><li class="pages-text">Blog</li></a>
+        <a href="/pages/Beverages/beverages.html"><li class="pages-text" >Bevarages</li></a>
+        <a href="#"><li class="pages-text">Snaking</li></a>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <img src="/icon/close.png" class="close-icon" alt="Close" onclick="closeModal()" />
+            <form class="form">
+                <h1 class="form-header">Login</h1>
+
+                <input type="text" placeholder="Enter your name" class="form-input" />
+
+                <input type="email" placeholder="Enter your email" class="form-input" />
+
+                <input type="text" placeholder="Enter your phone number" class="form-input" />
+
+                <input type="text" placeholder="Enter your Address" class="form-input" />
+            </form>
+
+            <button type="button" class="btn-login">
+                Login
+            </button>
+        </div>
     </div>
     <hr>
 
@@ -181,5 +202,16 @@
         </table>
         
     </footer>
+    <script>
+        function openModal() {
+            const overlayElement = document.getElementById('overlay');
+            overlayElement.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const overlayElement = document.getElementById("overlay");
+            overlayElement.style.display = "none";
+        }
+    </script>
 </body>
 </html>

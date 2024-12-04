@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakery Shop</title>
+    <link rel="icon" type="image/x-icon" href="./../icon/unnamed.png">
     <link rel="stylesheet" href="./../css/bakery-shop.css" />
     <link rel="stylesheet" href="./../css/shop.css" />
     <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+
+    <style>
+      @media (max-width: 1024px) {
+        .container1, .container {
+           width: 80%;
+        }  
+        .card1, .card {
+          width: 80%;
+        }
+  }
+
+    </style>
   </head>
   <body>
     <div class="header-container">
@@ -23,7 +37,7 @@
   </div>
 
   <div class="pages-container">
-      <a href="#" ><p class="pages-text">Festive Gifting</p></a>
+      <a href="festive gifting.html" ><p class="pages-text">Festive Gifting</p></a>
       <a href="#"><p class="pages-text">Grocery</p></a>
       <a href="./bakery-shop.html"><p class="pages-text">Bakery Shop</p></a>
       <a href="ExoticFruit.html"><p class="pages-text">Exotic Fruits</p></a>
@@ -37,9 +51,9 @@
     
     <div class="sidebar" id="sidebar">
         <i class="fa-solid fa-circle-xmark close-menu" onclick="closeSidebar()"></i>
-        <a href="#"><p class="pages-text1">Festive Gifting</p></a>
+        <a href="festive gifting.html"><p class="pages-text1">Festive Gifting</p></a>
         <a href="#"><p class="pages-text1">Grocery</p></a>
-        <a href="#"><p class="pages-text1">Bakery Shop</p></a>
+        <a href="bakery-shop.html"><p class="pages-text1">Bakery Shop</p></a>
         <a href="ExoticFruit.html"><p class="pages-text1">Exotic Fruits</p></a>
         <a href="#"><p class="pages-text1">Blog</p></a>
         <a href="./Beverages/beverages.html"><p class="pages-text1">Beverages</p></a>
@@ -121,11 +135,11 @@
         /></a>
         <div class="label1">
           <p>Raspberry Forest Cake</p>
-          <p><b>Weight : </b> 1 kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 999. 00 </b></i>
-          <br />
+          <p><!-- <b>Weight : </b> 1 kg -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 999.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/raspberry.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
 
@@ -139,11 +153,11 @@
         /></a>
         <div class="label1">
           <p>The Very Berry Cake</p>
-          <p><b>Weight : </b> 1/2 kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 1599. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 1/2 kg -->
+          <i class="fa-solid fa-indian-rupee-sign rupee1"></i> 1599.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/berry-cake.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
       <div class="card1">
@@ -156,11 +170,11 @@
         /></a>
         <div class="label1">
           <p>Classic Chocolate Ganache Cake</p>
-          <p><b>Weight : </b> 1kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 799. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 1kg -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 799.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/classic-chocolate.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
       <div class="card1">
@@ -173,11 +187,11 @@
         /></a>
         <div class="label1">
           <p>Pineapple cake</p>
-          <p><b>Weight : </b> 1/2 kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 1199. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 1/2 kg -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 1199.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+         <a href="./../pages/bakery-shop-pages/pineapple.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
       <div class="card1">
@@ -190,11 +204,11 @@
         /></a>
         <div class="label1">
           <p>Baked NY Cheesecake with Blueberries</p>
-          <p><b>Weight : </b> 1 kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 1499. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 1 kg -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 1499.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/baked.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
 
@@ -208,11 +222,11 @@
         /></a>
         <div class="label1">
           <p>Whole Wheat Apple Cake with Maple Cream Cheese</p>
-          <p><b>Weight : </b> 1/2 kg</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 999. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 1/2 kg -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 999.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/apple-cake.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
     </div>
@@ -231,11 +245,11 @@
         /></a>
         <div class="label1">
           <p>Almond Biscotti</p>
-          <p><b>Weight : </b> 100g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 99. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 100g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 99.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/almond.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
 
@@ -249,11 +263,11 @@
         /></a>
         <div class="label1">
           <p>Assorted Cookies</p>
-          <p><b>Weight : </b> 250g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 199. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 250g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 199.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/assorted.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
       <div class="card1">
@@ -265,9 +279,9 @@
         />
         <div class="label1">
           <p>Roasted Almond & Oatmeal Cookies ( Whole wheat )</p>
-          <p><b>Weight : </b> 300g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 499. 00 </b></i>
-          <br />
+          <p><!-- <p><p><b>Weight : </b> 300g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 499.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
           <button class="btn btn2" type="submit">Buy Now</button>
         </div>
@@ -281,9 +295,9 @@
         />
         <div class="label1">
           <p>Signature Chocolate and Oatmeal Cookies</p>
-          <p><b>Weight : </b> 250g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 349. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 250g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 349.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
           <button class="btn btn2" type="submit">Buy Now</button>
         </div>
@@ -297,9 +311,9 @@
         />
         <div class="label1">
           <p>Coconut Crunch Cookies</p>
-          <p><b>Weight : </b> 150g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 149. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 150g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 149.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
           <button class="btn btn2" type="submit">Buy Now</button>
         </div>
@@ -314,9 +328,9 @@
         />
         <div class="label1">
           <p>Honey Oatmeal Cookies</p>
-          <p><b>Weight : </b> 150g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 99. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 150g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 99.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
           <button class="btn btn2" type="submit">Buy Now</button>
         </div>
@@ -337,11 +351,11 @@
         /></a>
         <div class="label1">
           <p>Rose Pistachio Cranberry & Chocolate Barks</p>
-          <p><b>Weight : </b> 120g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 299. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 120g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 299.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/chocolate-barks.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
 
@@ -355,11 +369,11 @@
         /></a>
         <div class="label1">
           <p>LuvIt. Chocorich</p>
-          <p><b>Weight : </b> 480g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 315. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 480g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 315.00 </p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/luvlt-chocorich.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
     </div>
@@ -378,11 +392,11 @@
         /></a>
         <div class="label1">
           <p>Almond and Cranberry Granola</p>
-          <p><b>Weight : </b> 250g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 499. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 250g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 499.00</p>
+          <!-- <br /> -->
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/almond-granola.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
 
@@ -396,15 +410,67 @@
         /></a>
         <div class="label1">
           <p>Honey and Hazelnut Granola</p>
-          <p><b>Weight : </b> 250g</p>
-          <i class="fa-solid fa-indian-rupee-sign"> <b> 449. 00 </b></i>
-          <br />
+          <p><!-- <p><b>Weight : </b> 250g -->
+          <i class="fa-solid fa-indian-rupee-sign"></i> 449.00</p>
+          
           <button class="btn btn1" type="button">Add to Cart</button>
-          <button class="btn btn2" type="submit">Buy Now</button>
+          <a href="./../pages/bakery-shop-pages/honey.html"><button class="btn btn2" type="submit">Buy Now</button></a>
         </div>
       </div>
     </div>
     <!-- </section> -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+        <div class="footer-logo">
+          <img src="./../icon/unnamed.png" class="Logo-image" height="30px">
+          <!-- <img src="./img/main-website-logo.webp" alt="" height="80px" width="220px"> -->
+          <p class="websitename">Freshify.com</p> <br>
+        </div>  
+          <div class="footer-social">
+            <a href="#"><img src="./../icon/facebook.png" class="footer-img"></a>
+            <a href="#"><img src="./../icon/instagram.png" class="footer-img"></a>
+            <a href="#"><img src="./../icon/linkedin (1).png" class="footer-img"></a>
+            <a href="#"><img src="./../icon/github.png" class="footer-img"></a>
+            <a href="#"><img src="./../icon/twitter.png" class="footer-img"></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <p class="column-title">Company</p>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">For Partners</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <p class="column-title">Partner Sites</p>
+            <ul>
+              <li><a href="#">Proptiger</a></li>
+              <li><a href="#">Grocery</a></li>
+              <li><a href="#">Veggies.com</a></li>
+              <li><a href="#">Grocery.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <p class="column-title">Explore</p>
+            <ul>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Tasty Food</a></li>
+              <li><a href="#">Eating Map</a></li>
+              <li><a href="#">Interational</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 E-commerce Webpage. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/10e1ccecc8.js"
