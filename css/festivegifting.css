@@ -21,6 +21,9 @@
     justify-content: center;
     
 }
+.t1{
+    text-decoration: none;
+}
 .product {
     background-color: white;
     padding: 5px;
