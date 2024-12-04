@@ -62,7 +62,7 @@ body{
     border:none;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.875);
+    background-color: rgba(1, 1, 1, 0.4);
     position: fixed;
     top: 0;
     left: 0;
