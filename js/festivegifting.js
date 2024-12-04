@@ -10,6 +10,7 @@ function decrement(counterId) {
   if (currentValue>0) {
     counter.innerText = --currentValue;
     alert("one item remove successfully" );
+  
   }
 
 } 
@@ -42,7 +43,3 @@ function closeModel() {
   overlayElement.style.display = 'none';
 }
 
-function okButton() {
-  const overlayElement = document.getElementById('overlay');
-  overlayElement.style.visibility = 'none';
-}
