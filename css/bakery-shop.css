@@ -20,6 +20,10 @@ body {
   color: white;
 }
 
+.text-decor{
+  text-decoration: none;
+}
+
 .main-head {
   font-size: 2.5rem;
   /* font-family: "Times New Roman", Times, serif; */
