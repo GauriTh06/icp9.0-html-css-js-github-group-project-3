@@ -1,6 +1,6 @@
 # Freshify E-commerce Website
 
-Welcome to the Freshify project! This is an e-commerce website designed to provide users with a seamless shopping experience, offering categories like groceries, exotic fruits, bakery products, beverages, gifts, and more.
+Welcome to the Freshify project! This is an e-commerce website designed to provide users with a seamless shopping experience, offering categories like groceries, exotic fruits, bakery products, beverages, gifts, and more. https://freashify.netlify.app
 
 ## Table of Contents
 
