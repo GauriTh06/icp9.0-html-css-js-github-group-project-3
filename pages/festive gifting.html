@@ -21,21 +21,21 @@
                 <a href="index.html"><img src="../img/main-website-logo.webp" class="website-logo"></a>
                 <button class="header-button header-button1">Enter Pin</button>
                 <button class="header-button">Mumbai</button>
-    <input placeholder="Start Shopping" class="input-start-shopping" id="search" onkeyup=" search()"/>
+            <input placeholder="Start Shopping" class="input-start-shopping" id="search" onkeyup=" search()"/>
                 <button class="search-button"><img src="../icon/search.png" class="search-button-img"></button>
                 <button class="header-button header-button2">Login</button>
-                <a href="#"><img src="../icon/shopping-cart.png" class="shopping-cart"></a>    
+                <a href="#"><img src="../icon/shopping-cart.png" class="shopping-cart" ></a>    
             </div>
            
             <div class="pages-container ">
                 <a href="../index.html" class="t1"><li class="pages-text">Home</li></a>
-                <a href="../pages/festive-gifting.html" class="t1"><li class="pages-text">Festive Gifting</li></a>
+                <a href="../pages/festive gifting.html" class="t1"><li class="pages-text">Festive Gifting</li></a>
                 <a href="#" class="t1"><li class="pages-text">Grocery</li></a>
                 <a href="../pages/bakery-shop.html" class="t1"><li class="pages-text">Bakery Shop</li></a>
                 <a href="../pages/ExoticFruit.html"class="t1"><li class="pages-text">Exotic Fruits</li></a>
                 <a href="#"class="t1"><li class="pages-text">Blog</li></a>
                 <a href="../pages/Beverages/beverages.html"class="t1"><li class="pages-text" >Bevarages</li></a>
-                <a href="#" class="t1"><li class="pages-text"class="t1">Snaking</li></a>
+                <a href="# " class="t1"><li class="pages-text"class="t1">Snaking</li></a>
                 </div>
     <div class="pg-container">
                 <div class="filter">
@@ -74,6 +74,14 @@
                 <button type="button" class="ok-btn" onclick="closeModel()"> Ok </button> 
             </div>
         </div>
+        <div class="overlay1" id="overlay1">
+            <div class="model">      
+                <img src="../icon/close.png" alt="close" class="close-icon" id="close1" onclick="closeModel1()"> 
+                <h2 class="model-heading1"> Successfully add ! </h2>   
+                <p class="dialog-paragraph" > Your item has been successfully added.</p>         
+                <button type="button" class="ok-btn1" onclick="closeModel1()"> Ok </button> 
+            </div>
+        </div>
     
     <div class="products_contener" id="products_contener">
         <p class="container-header">The Gift Studio > </p>
@@ -90,7 +98,7 @@
                 </button>
                 </div>
             <button class="btn1">MRP 2799</button>
-            <button class="btn" id="add-to-card">Add to cart</button>
+            <button class="btn" id="add-to-card" onclick="openModel1()">Add to cart</button>
         </div>
     
     <div class="product" id="product">
@@ -107,7 +115,7 @@
             </button>
             </div>
         <button class="btn1">MRP 5899</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card" onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product" id="product">
         <img src="../img/festive-gifting/la-dolce.jpg" alt="La Dolce Vita Hamper" class="product-img">
@@ -122,7 +130,7 @@
             </button>
             </div>
         <button class="btn1">MRP 6799</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card" onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/seed-sensation.jpg" alt="Seed Sensation Tray" class="product-img">
@@ -137,7 +145,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1799</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/crave-conquer.jpg" alt="Crave and Conquer Crate" class="product-img">
@@ -152,7 +160,7 @@
             </button>
             </div>
         <button class="btn1">MRP 3599</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -167,7 +175,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2799</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -182,7 +190,7 @@
             </button>
             </div>
         <button class="btn1">MRP 500</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -197,7 +205,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1000</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -212,7 +220,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2000</button>
-        <button class="btn" id="add-to-card">Add to cart</button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart</button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -227,7 +235,7 @@
             </button>
             </div>
         <button class="btn1">MRP 3000</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/e-gift-voucher.jpg" alt="E-Gift-Voucher" class="product-img">
@@ -242,7 +250,7 @@
             </button>
             </div>
         <button class="btn1">MRP 5000</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/sweet-escape.jpg" alt="Sweet Escape- No Sugar Edition Hamper" class="product-img">
@@ -257,7 +265,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2399</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/petal-t-light.jpg" alt="Petal T Light Holders Set of 2 pcs" class="product-img">
@@ -272,7 +280,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
     <div class="product">
         <img src="../img/festive-gifting/floral-light.jpg" alt="Floral T Light Holder" class="product-img">
@@ -287,7 +295,7 @@
             </button>
             </div>
         <button class="btn1">MRP 699</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
      <div class="product">
         <img src="../img/festive-gifting/white-marble.jpg" alt="White Marble Photo Frame" class="product-img">
@@ -302,7 +310,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1699</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
         
     <div class="product">
@@ -318,7 +326,7 @@
             </button>
             </div>
         <button class="btn1">MRP 999</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/rustic-radiance.jpg" alt="Rustic Radiance Candle Holder" class="product-img">
@@ -333,7 +341,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1199</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>  
     <div class="product">
         <img src="../img/festive-gifting/grey-square.jpg" alt="Grey Agate Square Coasters " class="product-img">
@@ -348,7 +356,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/grey-cheesebord.jpg" alt="Grey Agate Cheeseboard & Set of 3 Cheese Knives" class="product-img">
@@ -363,7 +371,7 @@
             </button>
             </div>
         <button class="btn1">MRP 3799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/cutwork-serenity.jpg" alt="Cutwork Serenity T Light Holder Votive" class="product-img">
@@ -378,7 +386,7 @@
             </button>
             </div>
         <button class="btn1">MRP 799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/health-harmony.jpg" alt="Health Harmony Hamper" class="product-img">
@@ -393,7 +401,7 @@
             </button>
             </div>
         <button class="btn1">MRP 6799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/brew-teaful.jpg" alt="Brew-teaful Box" class="product-img">
@@ -408,7 +416,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2999</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/trio-crunchy.jpg" alt="Trio Crunchy Nuts Tray" class="product-img">
@@ -423,7 +431,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1899</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
      <div class="product">
         <img src="../img/festive-gifting/nutty.jpg" alt="Nutty Necessities Tray" class="product-img">
@@ -438,7 +446,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1799</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/coffee-bean.jpg" alt="Coffee Bean Bonanza Hamper" class="product-img">
@@ -453,7 +461,7 @@
             </button>
             </div>
         <button class="btn1">MRP 2099</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/cocoa-luxe.jpg" alt="Cocoa Luxe Treasure Trove" class="product-img">
@@ -468,7 +476,7 @@
             </button>
             </div>
         <button class="btn1">MRP 7899</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div> 
     <div class="product">
         <img src="../img/festive-gifting/nutri-nibbles.jpg" alt="Nutri Nibbles Tray" class="product-img">
@@ -483,7 +491,7 @@
             </button>
             </div>
         <button class="btn1">MRP 1999</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
     </div>
      <div class="product">
         <img src="../img/festive-gifting/oriental.jpg" alt="Oriental Odyessey Hamper" class="product-img">
@@ -498,7 +506,7 @@
         </button>
         </div>
         <button class="btn1" id="price">MRP 5699</button>
-        <button class="btn" id="add-to-card">Add to cart </button>
+        <button class="btn" id="add-to-card"onclick="openModel1()">Add to cart </button>
         </div>
         </div>
 </div>

@@ -43,3 +43,12 @@ function closeModel() {
   overlayElement.style.display = 'none';
 }
 
+function openModel1() {
+  const overlayElement = document.getElementById('overlay1');
+  overlayElement.style.display = 'flex';
+}
+
+function closeModel1() {
+  const overlayElement = document.getElementById('overlay1');
+  overlayElement.style.display = 'none';
+}
