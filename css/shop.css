@@ -33,10 +33,11 @@ span{
 .card1 {
   font-family: "Kumbh Sans", sans-serif;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 6px 5px #18283f75;
   margin: 27px;
   overflow: hidden;
-  width: 300px;
+  width: 315px;
   /* text-align: center; */
   transition: transform 0.3s ease-in-out;
 }
