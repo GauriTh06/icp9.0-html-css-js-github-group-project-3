@@ -19,17 +19,38 @@
         <button class="header-button">Mumbai</button>
         <input placeholder="Start Shopping" class="input-start-shopping"/>
         <button class="search-button"><img src="../../icon/search.png" class="search-button-img"></button>
-        <button class="header-button header-button2">Login</button>
+        <button class="header-button header-button2" onclick="openModal()">Login</button>
         <a href="#"><img src="../../icon/shopping-cart.png" class="shopping-cart"></a>    
     </div>
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <img src="/icon/close.png" class="close-icon" alt="Close" onclick="closeModal()" />
+            <form class="form">
+                <h1 class="form-header">Login</h1>
+
+                <input type="text" placeholder="Enter your name" class="form-input" />
+
+                <input type="email" placeholder="Enter your email" class="form-input" />
+
+                <input type="text" placeholder="Enter your phone number" class="form-input" />
+
+                <input type="text" placeholder="Enter your Address" class="form-input" />
+            </form>
+
+            <button type="button" class="btn-login">
+                Login
+            </button>
+        </div>
+    </div>
+    <hr>
     <div class="pages-container">
-        <li class="pages-text">Festive Gifting</li>
-        <li class="pages-text"id="beverages">Grocery</li>
-        <li class="pages-text">Bakery Shop</li>
-        <li class="pages-text" >Exotic Fruits</li>
-        <li class="pages-text">Blog</li>
-        <li class="pages-text">Bevarages</li>
-        <li class="pages-text">Snaking</li>
+        <li class="pages-text"><a href="./../festive gifting.html">Festive Gifting</a></li>
+        <li class="pages-text"id="beverages"><a href="./grocery.html">Grocery</a></li>
+        <li class="pages-text"><a href="./../bakery-shop.html">Bakery Shop</a></li>
+        <li class="pages-text"><a href="./../ExoticFruit.html">Exotic Fruits</a></li>
+        <li class="pages-text"><a href="#">Blog</a></li>
+        <li class="pages-text" ><a href="./../Beverages/beverages.html">Beverages</a></li>
+        <li class="pages-text"><a href="#">Snaking</a></li>
     </div>
     <hr>
 
@@ -39,7 +60,6 @@
             <a href="./cookingoil.html"><button class="filter-btns">Cooking Oils</button></a>
             <a href="./cookingspices.html"><button class="filter-btns">Cooking Spices</button></a>
             <a href="./floursgrain.html"><button class="filter-btns">Flours Grain &..</button></a>
-            <a href="./grocery.html"><button class="filter-btns">Sauces</button></a>
 
         </div>
         <div class="container2">
