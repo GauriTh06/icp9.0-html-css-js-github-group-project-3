@@ -62,7 +62,7 @@ body{
     border:none;
 }
 .overlay {
-    background-color: rgba(0, 0, 0, 0.875);
+    background-color: rgba(1, 1, 1, 0.4);
     position: fixed;
     top: 0;
     left: 0;
@@ -335,6 +335,7 @@ footer {
  font-weight: 400;
  font-family: "Kumbh Sans", sans-serif;
 }
+
 .Logo-image2{
   margin-top: 8px;
   margin-bottom: 2px;

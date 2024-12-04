@@ -6,6 +6,7 @@
         <title>Freshify</title>
     <link rel="stylesheet" href="../../css/beverages.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bakery-shop.css">
     <script src="../../js/beverages.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,17 +20,37 @@
         <button class="header-button">Mumbai</button>
         <input placeholder="Start Shopping" class="input-start-shopping"/>
         <button class="search-button"><img src="../../icon/search.png" class="search-button-img"></button>
-        <button class="header-button header-button2">Login</button>
-        <a href="#"><img src="../../icon/shopping-cart.png" class="shopping-cart"></a>    
+        <button class="header-button header-button2" onclick="openModal()">Login</button>
+        <a href="#"><img src="/icon/shopping-cart.png" class="shopping-cart"></a>    
     </div>
     <div class="pages-container">
-        <li class="pages-text">Festive Gifting</li>
-        <li class="pages-text">Grocery</li>
-        <li class="pages-text">Bakery Shop</li>
-        <li class="pages-text" id="beverages">Exotic Fruits</li>
-        <li class="pages-text">Blog</li>
-        <li class="pages-text">Bevarages</li>
-        <li class="pages-text">Snaking</li>
+        <a href="#"><li class="pages-text">Festive Gifting</li></a>
+        <a href="#"><li class="pages-text">Grocery</li></a>
+        <a href="/pages/bakery-shop.html"><li class="pages-text">Bakery Shop</li></a>
+        <a href="/pages/ExoticFruit.html"><li class="pages-text"  id="beverages">Exotic Fruits</li></a>
+        <a href="#"><li class="pages-text">Blog</li></a>
+        <a href="/pages/Beverages/beverages.html"><li class="pages-text" >Bevarages</li></a>
+        <a href="#"><li class="pages-text">Snaking</li></a>
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <img src="/icon/close.png" class="close-icon" alt="Close" onclick="closeModal()" />
+            <form class="form">
+                <h1 class="form-header">Login</h1>
+
+                <input type="text" placeholder="Enter your name" class="form-input" />
+
+                <input type="email" placeholder="Enter your email" class="form-input" />
+
+                <input type="text" placeholder="Enter your phone number" class="form-input" />
+
+                <input type="text" placeholder="Enter your Address" class="form-input" />
+            </form>
+
+            <button type="button" class="btn-login">
+                Login
+            </button>
+        </div>
     </div>
     <hr>
 
@@ -38,6 +59,7 @@
             <h1 class="filter-header">Filters</h1>
             <a href="/pages/TropicalFruits.html"><button class="filter-btns">Tropical Fruits</button></a>
             <a href="/pages/BerriesFruits.html"><button class="filter-btns">Berries Fruits</button></a>
+            <a href="/pages/fruitgames.html"><button class="filter-btns">Fruits Games</button></a>
         </div>
         <div class="container2">
             <p class="container-header">Exotic Fruits > Tropical Fruits </p>
@@ -134,8 +156,62 @@
     </div>
     </div>
     
-    <div class="footer">
-        <h1>Footer / footer navigitor</h1>
-    </div>
+    <footer>
+        <table width="100%" class="table-container foot-text">
+            <tr>
+                <td><div class="footer-child-container"><img src="/icon/unnamed.png" class="Logo-image"height="30px"><p class="websitename">Freshify.com</p></div></td>
+                <td class="color">Company</td>
+                <td class="color">Partner Sites</td>
+                <td class="color">Explore</td>
+    
+    
+            </tr>
+            <tr>
+                <td><div class="footer-child-container2"><a href="#"><img src="/icon/facebook.png" class="footer-img"></a>
+                    <a href="#"><img src="/icon/instagram.png" class="footer-img"></a>
+                    <a href="#"><img src="/icon/linkedin (1).png" class="footer-img"></a>
+                    <a href="#"><img src="/icon/github.png" class="footer-img"></a>
+                    <a href="#"><img src="/icon/twitter.png" class="footer-img"></a></div></td>
+                <td>Carrer</td>
+                <td>Proptiger</td>
+                <td>News</a></td>
+    
+            </tr>
+            <tr>
+                <td></td>
+                <td>About Us</td>
+                <td>Grocery</td>
+                <td>Tasty Food</a> </td>
+            </tr>
+            <tr>
+                <td><div class="footer-container">
+                    <p class="foot-text">&copy; 2024 E-commerce Webpage. All rights reserved.</p>
+                </div></td>
+                <td>For Partners</td>
+                <td>Veggies.com</td>
+                <td>Eating Map</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Terms</td>
+                <td>Grocery.com</td>
+                <td>International</td>
+                
+            </tr>
+    
+        </table>
+        
+    </footer>
+    <script>
+        function openModal() {
+            const overlayElement = document.getElementById('overlay');
+            overlayElement.style.display = 'flex';
+        }
+
+        function closeModal() {
+            const overlayElement = document.getElementById("overlay");
+            overlayElement.style.display = "none";
+        }
+    </script>
 </body>
 </html>
